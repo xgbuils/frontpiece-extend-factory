@@ -1,6 +1,6 @@
 {
   "name": "frontpiece.extend-factory",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "factory of extend class function",
   "main": "index.js",
   "scripts": {
