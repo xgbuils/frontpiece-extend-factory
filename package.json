@@ -1,0 +1,34 @@
+{
+  "name": "frontpiece.extend-factory",
+  "version": "0.1.0",
+  "description": "factory of extend class function",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xgbuils/frontpiece-extend-factory"
+  },
+  "keywords": [
+    "factory",
+    "extend",
+    "class",
+    "function"
+  ],
+  "author": "Xavier Garcia Buils <xgbuils@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xgbuils/frontent-model/issues"
+  },
+  "homepage": "https://github.com/xgbuils/frontent-extend-factory",
+  "dependencies": {
+    "object-assign": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "chai-things": "^0.2.0",
+    "gulp": "^3.8.11",
+    "gulp-mocha": "^2.0.1"
+  }
+}
