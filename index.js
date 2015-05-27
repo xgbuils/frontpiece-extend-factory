@@ -20,7 +20,8 @@ function extendFactory (specialMethods) {
         for (var prop in special) {
             if (special[prop]) {
                 child.prototype[prop] = function () {
-                    var args = [].push.apply([special[prop]], arguments)
+                    var args = [special[prop]]
+                    ;[].push.apply(args, arguments)
                     specialMethods[prop].apply(this, args)
                 }
             }
